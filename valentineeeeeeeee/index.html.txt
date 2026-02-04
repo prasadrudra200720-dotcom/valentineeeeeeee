@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s Day ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Happy Valentine’s Day ❤️</h1>
+  <p>This little corner of the internet is just for you</p>
+</section>
+
+<!-- Story Section -->
+<section class="section">
+  <h2>Our Story</h2>
+  <p>
+    From the moment we met, something just felt right.  
+    Every laugh, every conversation, every silence — I cherish it all.
+  </p>
+</section>
+
+<!-- Gallery -->
+<section class="section">
+  <h2>Us 🫶</h2>
+  <div class="gallery">
+  <img src="images/pic1.jpg" alt="Us together">
+  <img src="images/pic2.jpg" alt="Our memory">
+  <img src="images/pic3.jpg" alt="Love">
+</div>
+
+<!-- Reasons -->
+<section class="section">
+  <h2>Reasons I Love You</h2>
+  <ul>
+    <li>Your smile makes my worst days better</li>
+    <li>You understand me like no one else</li>
+    <li>You’re kind, strong, and beautiful</li>
+    <li>You make life feel lighter</li>
+    <li>You’re my safe place</li>
+  </ul>
+</section>
+
+<!-- Letter -->
+<section class="section letter">
+  <h2>A Letter For You 💌</h2>
+  <p>
+    Loving you is the easiest thing I’ve ever done.  
+    Thank you for being you.  
+    I promise to choose you, today and always.
+  </p>
+</section>
+
+<!-- Surprise -->
+<section class="section">
+  <button onclick="showSurprise()">Click for a Surprise 💝</button>
+  <p id="surprise" class="hidden">
+    Will you be my Valentine? ❤️
+  </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

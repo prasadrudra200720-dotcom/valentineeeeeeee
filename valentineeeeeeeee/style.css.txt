@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #fde2e4, #fadadd);
+  color: #3a3a3a;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 250px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.letter {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  margin: 0 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #ff6b81;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4757;
+}
+
+.hidden {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Floating hearts */
+.hearts::before {
+  content: "💖 💕 💗 💓 💞";
+  position: fixed;
+  width: 100%;
+  top: -10px;
+  animation: float 10s linear infinite;
+}
+
+@keyframes float {
+  from { top: 100%; }
+  to { top: -10%; }
+}
